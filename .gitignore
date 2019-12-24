@@ -1,3 +1,6 @@
+.sbt/1.0
+.sbt/boot
+.ivy2/
 target/
 build/
 data/
