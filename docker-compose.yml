@@ -11,6 +11,5 @@ services:
       - $HOME/.ivy2:/root/.ivy2
       - $HOME/.sbt:/root/.sbt
       - $PWD:/app
-    command: sh -c "sbt '~ ;clean;test'"
     networks:
       local:

@@ -11,12 +11,8 @@ A starting point for a kata in Scala with nothing more than Docker to run our te
 
 ### Up & Running
 
-Follow the usual TDD process of red, green and refactor. Simply run `docker-compose up` in a terminal for continuous testing
-
-One can also run
+Follow the usual TDD process of red, green and refactor. Simply run
 
 ```
 docker-compose run tests sh -c "sbt '~ ;clean;test'"
 ```
-
-if you want console colors and interaction.
