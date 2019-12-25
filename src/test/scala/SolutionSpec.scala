@@ -1,8 +1,10 @@
-package kata
+package solution
 
 import org.scalatest.FunSpec
+import org.scalatest.Matchers._
 
-class KataSpec extends FunSpec {
+
+class SolutionSpec extends FunSpec {
   describe("A set") {
     describe("when empty") {
       it("should have size 0") {
