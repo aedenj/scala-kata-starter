@@ -12,7 +12,7 @@ class SolutionSpec extends FunSpec {
       val expected = List(1,1)
 
       it("produces 1 -> 1") {
-          ListHelper.merge(l1, l2) should equal (expected)
+          Solution.merge(l1, l2) should equal (expected)
       }
     }
 
@@ -22,7 +22,7 @@ class SolutionSpec extends FunSpec {
       val expected = List(1,2,3)
 
       it("produces 1 -> 2 -> 3") {
-          ListHelper.merge(l1, l2) should equal (expected)
+          Solution.merge(l1, l2) should equal (expected)
       }
     }
 
@@ -32,7 +32,7 @@ class SolutionSpec extends FunSpec {
       val expected = List(1,3,4,4,5,7,9,11,12,14)
 
       it("produces 1->3->4->4->5->7->9->11->12->14") {
-          ListHelper.merge(l1, l2) should equal (expected)
+          Solution.merge(l1, l2) should equal (expected)
       }
     }
   }

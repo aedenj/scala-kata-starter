@@ -1,6 +1,6 @@
-package kata
+package solution
 
-object ListHelper {
+object Solution {
   def merge(l1:List[Int], l2:List[Int]) : List[Int]= {
     (l1, l2) match {
       case (Nil, Nil) => Nil
